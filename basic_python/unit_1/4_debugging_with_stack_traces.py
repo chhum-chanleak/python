@@ -16,7 +16,7 @@
 # print("Week 3's expenses.")
 # print(81.50 + 22.12 + 371.33)
 
-# Copy for demonstration
+# Copy the "Original" segment above for demonstration
 
 print("Python Academy office report.")
 print("June's expenses.")
