@@ -7,7 +7,7 @@
 # print("Run me!")
 # print("Syntax errors mean that the code is not valid Python.")
 # print(43 + 31 + 589)
-# print(12.43 + 38.43 +)
+# print(12.43 + 38.43 + )
 # print("Can you find the error?")
 
 # *2. Runtime errors
@@ -49,3 +49,7 @@
 # 4.3. Pair programming
 
 # Pair programming is an active collaboration where one person types and the other person offers suggestions, switching roles every so often. The person typing talks through their thought process as they go, so the second person can validate what they're doing.
+
+# Getting tax
+def getTax(price, taxRate):
+  return price * taxRate
