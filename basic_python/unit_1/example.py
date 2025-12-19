@@ -62,12 +62,12 @@
 # "Not positive" otherwise
 # Test case idea: Try num = -3 and num = 10.
 
-num = 10
+# num = 10
 
-if (num > 0):
-  print("Positive number.")
-else:
-  print("Not positive.")
+# if (num > 0):
+#   print("Positive number.")
+# else:
+#   print("Not positive")
 
 #py0aj
 # Exercise 2: Check Even or Odd
@@ -78,6 +78,13 @@ else:
 # "Even number" if divisible by 2
 # "Odd number" otherwise
 # Test case idea: Try num = 7 and num = 12.
+
+# num = 12
+
+# if (num % 2) == 0:
+#   print("Even number.")
+# else:
+#   print("Odd number.")
 
 #py0ak
 
@@ -111,6 +118,64 @@ else:
 #py0a
 
 # 0. Learn basic array first before attempting exercise number 1.
+
+# A list is an ordered, mutable collection of items in python.
+
+# Example 1: Creating a list
+
+# numbers = [4, 3, 2, 1]
+
+# print(numbers)
+
+# Example 2: Accessing/indexing/extracting elements
+
+# fruits = ["apple", "banana", "cherry"]
+# print(fruits[2])  # number 2 here is called an "index"
+# print(fruits[0])  # number 0 here is called an "index"
+
+# Example 3: Modifying a list (mutable)
+
+# colors = ["red", "blue", "green"]
+
+# colors[1] = "yellow"
+# print(colors)
+
+# Example 4: Adding elements
+
+# animals = ["cat", "dog"]
+
+# animals.append("elephant")
+# print(animals)
+
+#py0ad
+# Exercise 1: Creating a list
+# Task:
+# Create a list called scores that contains these numbers in order:
+# 10, 20, 30, 40
+# Then print the list.
+# 👉 Goal: Get comfortable writing a list literal.
+
+#  Exercise 2: Accessing (indexing) elements
+
+# names = ["Alice", "Bob", "Charlie"]
+
+# Task:
+# Print "Bob" using its index
+# Print "Alice" using its index
+
+# Exercise 3: Modifying a list
+
+# cities = ["Paris", "London", "Tokyo"]
+
+# Task:
+# Change "London" to "Berlin" and print the updated list.
+
+# Exercise 4: Adding elements
+
+# numbers = [1, 2, 3]
+
+# Task:
+# Add the number 4 to the end of the list, then print the list.
 
 # 1.
 # # CODE WITH ERROR
@@ -247,3 +312,35 @@ else:
 
 # price = 49.99
 # tax_rate = 0.075
+
+#py0y
+
+# Exercise 3: Case Conversion and Checking
+# Task 1: Given the string phrase = "tHis Is A TesT", convert it entirely to lowercase. Then, use a string method to check if the original string starts with the letter 't' (case-sensitive).
+# Task 2: Given the string greeting = "hElEo, WoRlD!", convert it entirely to uppercase. Then, use a string method to check if the last letter of the original string ends with the letter ''D" (case-sensitive).
+
+# ============================================
+# Pair Programming: Evaluating Expressions
+# ============================================
+
+# print("Evaluating string expressions...")
+
+# # What does each string expression evaluate to?
+# print("hello" + " world")
+# print("data" + "_" + "science")
+# prin("AI" + " " + "tools")  # intentional typo to discuss error
+# print("2" + "5" + "8.3")
+
+# # Display a divider surrounded by blank lines
+# print()
+# print("==========")
+# print()
+
+# print("Evaluating integer and float expressions...")
+
+# # What does each numeric expression evaluate to?
+# print(10 + 5)
+# print(3.5 + 2.5)
+# print(100)
+# print(-7 + 0.33)
+# print(8 / 2)  # test float division
