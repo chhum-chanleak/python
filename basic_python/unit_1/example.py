@@ -98,6 +98,15 @@
 # "C or below" otherwise
 # Test case idea: Try grade = 92, grade = 85, and grade = 70.
 
+# grade = 70
+
+# if grade >= 90: # starting branch
+#   print("A grade.")
+# elif grade >= 80: # extra branch
+#   print("B grade.")
+# else: # default branch
+#   print("C or below.")
+
 #py0al
 # Exercise 4: Age Restriction
 # Task:
@@ -108,12 +117,26 @@
 # "Too young to vote" otherwise
 # Test case idea: Try age = 17 and age = 21.
 
+# age = 21
+
+# if age >= 18: 
+#   print("You can vote.")
+# else:
+#   print("Too young to vote.")
+
 #py0s
 # Exercise 1: Concatenation and Length
 # Task: Create two string variables, first_name and last_name. Concatenate them with a space in between to form full_name. Then, calculate and print the length of full_name.
 
 # first_name = "Alan"
 # last_name = "Turing"
+
+# firstName = "Alan"
+# lastName = "Turing"
+
+# fullName = firstName + " " + lastName
+
+# print(len(fullName))
  
 #py0a
 
@@ -176,6 +199,8 @@
 
 # Task:
 # Add the number 4 to the end of the list, then print the list.
+
+#py0a
 
 # 1.
 # # CODE WITH ERROR
