@@ -37,8 +37,8 @@
 # for = 5            # keyword
 
 # Using variables
+# Assign
 
-# # Assign
 # x = 10
 # y = 5
 
@@ -62,12 +62,22 @@
 # Exercises (practice)
 
 # 1. Create a variable city and assign it "Singapore". Print it.
+# city = "Singapore"
 
 # 2. Create two variables a = 7 and b = 3. Print their sum.
+# a = 7
+# b = 3
+
+# print(a + b)
 
 # 3. Update the value of a to 10 and print the new sum with b.
 
+# a = a + 3
+
+# print(a + b)
+
 # 4. Create a variable is_hungry and assign it True. Print it.
 
-
+# is_hungry = True
+# print(is_hungry)
 
