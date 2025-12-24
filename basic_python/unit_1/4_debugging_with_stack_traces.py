@@ -34,3 +34,14 @@ print(round(weekOneAndWeekTwoExpenses, 2))
 
 print("Week 3's expenses.")
 print(81.50 + 22.12 + 371.33)
+
+# *Debug the code
+
+# Think about what you expect to happen versus what actually happens. Let's figure out what's going wrong!
+# Add debugging print statements.
+# Look for common issues like indentation or = vs. ==.
+# Check the state of your variables at different points in the program.
+# Comment out sections of code to narrow down the issue.
+# Read your code out loud.
+# Trace your code line by line.
+# Take a break.
