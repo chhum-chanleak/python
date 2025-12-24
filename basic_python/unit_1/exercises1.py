@@ -33,6 +33,9 @@
 # original_price = 50.0
 # discount_rate = 0.10 # 10%
 # discount_amount = original_price * discount_rate
+# discounted_price = original_price - discount_amount
+
+# print(discounted_price)
 
 # # This calculates the discount amount, but doesn't subtract it.
 # final_price = original_price - discount_amount
@@ -46,7 +49,7 @@
 # total_score = 85
 # num_subjects = 4
 
-# # Uses integer division (//) instead of float division (/)
+# Uses integer division (//) instead of float division (/)
 # average_grade = total_score // num_subjects
 
 # print(f"Total Score: {total_score}")
@@ -70,9 +73,9 @@
 # print("Evaluating string expressions...")
 
 # # What does each string expression evaluate to?
-# print("hello" + " world") # hello world
+# print("hello" + " world") 
 # print("data" + "_" + "science")
-# print("AI" + " " + "tools")  # intentional typo to discuss error
+# print("AI" + " " + "tools")
 # print(2 + 5 + 8.3)
 
 # # Display a divider surrounded by blank lines
@@ -83,7 +86,7 @@
 # print("Evaluating integer and float expressions...")
 
 # # What does each numeric expression evaluate to?
-# # print(10 + 5)
+# print(10 + 5)
 # print(3.5 + 2.5)
 # print(-7 + 0.33)
 # print(8 / 2)  # test float division
