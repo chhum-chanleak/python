@@ -25,23 +25,13 @@
 
 # What types of errors are all of these?
 
-# 1.
-# # CODE WITH ERROR
-# # We have three separate variables
-# point1 = 10
-# point2 = 20
-# point3 = 30
-
-# # The code attempts to access a fourth point, which doesn't exist
-# fourth_point = point4
-# print(fourth_point)
-
 # 2.
 # # CODE WITH ERROR
-# # Attempting to add a string and an integer
+# Attempting to add a string and an integer
 # text = "Result is: "
 # number = 100
-# final_output = text + number
+# final_output = text + str(number)
+
 # print(final_output)
 
 # 3. What type of errors are these?

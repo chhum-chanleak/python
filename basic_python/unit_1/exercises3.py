@@ -62,14 +62,14 @@
 # Exercises: input()
 
 # 1.
-# client = input("Enter client name: ")
-# caterer = "King Catering"
+client = input("Enter client name: ")
+caterer = "King Catering"
 
-# message = caterer + " will serve " + client
+message = caterer + " will serve " + client
 
-# print("Catering Contract (" + caterer + ")")
-# print("----------")
-# print(message)
+print("Catering Contract (" + caterer + ")")
+print("----------")
+print(message)
 
 # a.
 # What value is stored in client if the user types: Dara
