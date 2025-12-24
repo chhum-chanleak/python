@@ -1,3 +1,8 @@
+# print() function can take multiple parameters.
+
+# print("Hello,", name)
+# print(2, "Hello", True)
+
 # 1. What is input()?
 # Pauses the program
 # Waits for the user to type something
@@ -6,6 +11,7 @@
 # Example 1: Basic input (text)
 
 # name = input("Enter your name: ")
+
 # print("Hello,", name)
 
 # What happens:
