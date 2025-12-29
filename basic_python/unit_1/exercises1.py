@@ -111,7 +111,6 @@
 # point1 = 10
 # point2 = 20
 # point3 = 30
-# point4 = 40
 
 # The code attempts to access a fourth point, which doesn't exist
 # fourth_point = point4
@@ -126,3 +125,30 @@
 # print(final_output)
 
 # 3. What type of errors are these?
+
+# Exercises: Naming
+
+# 1.
+# first_station = "Pioneer Square"
+# second_station = "International District"
+# third_station = "Final station"
+
+# print("Now arriving at " + first_station + " station")
+# print("Departing " + first_station + " station")
+# print("The next station is " + second_station)
+
+# print("Now arriving at " + second_station + " station")
+# print("Departing " + second_station + " station")
+# print("The next station is " + third_station)
+
+# 2.
+# city = "Seattle"
+# print("Welcome to " + city_name)
+
+# 3.
+# if (3 < 0)
+#   message = "Hello, world!"
+
+# print(message)
+
+# What types of errors are all of these?
